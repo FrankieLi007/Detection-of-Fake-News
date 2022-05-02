@@ -16,3 +16,4 @@ The CHECKED dataset contained 2,104 verified microblogs related to COVID-19 betw
 
 In data pre-processing, we manually verified the content of each dataset. We found that the contextual meaning of 13 out of 2104 microblogs should be classified as "opinion," i.e., neither true nor fake news.  For the sake of fairness in training, we removed these 13 items.  The total number of microblogs in our dataset remains 2,091 (including 344 fake news and 1,747 real news).
 
+The pre-processed real news dataset is at real_news_modified_v2.csv, whereas the fake news dataset is at fake_news_modified_v2.csv.  The source code of the testings is at analysis_v5.2.ipynb.  The source codes of the 4 ablation studies investigating the effect of the accuracy by removing different features at Ablation_study_1.ipynb, Ablation_study_2.ipynb, Ablation_study_3.ipynb and Ablation_study_4.ipynb.
